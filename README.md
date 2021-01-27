@@ -31,3 +31,9 @@ The images are converted to gray scale and to their equivalent binary image usin
 4 Find external contour of the cropped image.\
 5 The character to be segmented will have the longest contour. Hence, suppress the region covered by smaller contours. This gives the final segmented character.\
 6 Repeat steps 2 to 5 for all the contours detected in step 1 to get all the characters segmented.
+
+# Changes to make
+Run Document Segmentation matlab code to get output stored in subfolders named sentence,word and character.
+Change the path to input image in Document_Segmentation.m
+
+
