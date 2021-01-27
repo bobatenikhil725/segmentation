@@ -34,6 +34,7 @@ The images are converted to gray scale and to their equivalent binary image usin
 
 # Changes to make
 Run Document Segmentation matlab code to get output stored in subfolders named sentence,word and character.
-Change the path to input image in Document_Segmentation.m
+Change the path to input image in Document_Segmentation.m\
+Add to path all suboflders to path.
 
 
